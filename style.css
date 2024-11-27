@@ -1,0 +1,27 @@
+div{
+    border: 1px solid black;
+}
+
+.main-contain{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 16px;
+
+}
+
+.sub-contain{
+    width: 250px;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+ }
+#logo{
+    width: 40%;
+}
+
+#form-contain{
+
+}
