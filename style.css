@@ -32,6 +32,21 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #c2c0c0;
+}
+
+#description, #form-holder{
+    font-weight: bold;
+    font-size: 21px;
+}
+
+#form-holder{
+    background-color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+label{
+    font-size: 12px;
 }
 
 .inner{
@@ -42,13 +57,15 @@ p{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-
+    background-color: white;
 }
 
 .form-container{
     flex: 1 1 45%;
 }
 
-
+input[type=text]:invalid, input[type=email]:invalid, input[type=password]:invalid{
+    border-color: red;
+}
 
 
