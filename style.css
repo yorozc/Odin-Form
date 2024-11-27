@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .main-contain{
+    margin: auto;
     display: flex;
     border: 1px solid black;
     height: 100vh;
@@ -15,7 +17,11 @@
     justify-content: center;
     height: 100%;
     width: 250px;
-    border: 1px solid greenyellow;
+}
+
+.sub-contain p{
+    font-weight: bold;
+    font-size: 21px;
 }
 
 img{
@@ -35,6 +41,7 @@ img{
 .form{
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .form-container{
