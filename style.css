@@ -12,8 +12,10 @@
     display:flex;
     flex: 1;
     flex-direction: column;
+    justify-content: center;
     height: 100%;
     width: 250px;
+    border: 1px solid greenyellow;
 }
 
 img{
@@ -30,8 +32,13 @@ img{
     padding: 20px;
 }
 
-.form-group{
-   display: flex;
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-container{
+    flex: 1 1 45%;
 }
 
 
