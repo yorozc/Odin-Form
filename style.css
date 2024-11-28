@@ -68,6 +68,22 @@ a:hover{
     padding: 10px;
 }
 
+#credit-info{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 12px;
+    top: 650px;
+    color: white;
+    gap: 2px;
+    
+}
+
+#credit-info a {
+    color: white;
+    text-decoration: underline;
+}
+
 #right-side{
     flex: 5;
     display: flex;
