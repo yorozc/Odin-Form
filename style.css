@@ -20,10 +20,11 @@ p{
 
 a{
     text-decoration: none;
+    color: #da6363;
 }
 
 a:visited{
-    color: #da6363;
+    color: #ad762e;
 }
 
 a:hover{
