@@ -37,6 +37,23 @@ a:hover{
     flex: 3;
     width: 30%;
     background-size: cover;
+    position: relative;
+}
+
+#left-side #odin-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 150px;    
+}
+
+#logo{
+    max-height: 110px;
+    padding: 10px;
 }
 
 #right-side{
