@@ -3,6 +3,13 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+    font-family: "Rune-Font";
+    font-weight: bold;
+    src: url(./fonts/RunyTunesRevisitedNF.ttf);
+}
+
 body{
     background-color: black;
 }
@@ -44,11 +51,16 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 48px;
     color: white;
     background-color: rgba(0, 0, 0, 0.3);
     position: relative;
-    top: 150px;    
+    top: 150px;   
+
+}
+
+#left-side #odin-img p{
+    font-family: "Rune-font";
+    font-size: 64px;
 }
 
 #logo{
