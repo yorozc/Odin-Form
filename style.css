@@ -147,11 +147,6 @@ input[type=submit]:hover{
     transform: scale(1.1);
 }
 
-input[type=submit]:hover::after{
-    transition: all 0.2s ease;
-    transform: scale(1.0);
-}
-
 #button-contain{
     display: flex;
     flex-direction: column;
